@@ -1,0 +1,6 @@
+import urllib.request, urllib.parse, urllib.error
+
+[variable] = urllib.request.urlopen('http://website.com/page.extension')
+
+for [var] in [variable]:
+    print(line.decode().strip()
