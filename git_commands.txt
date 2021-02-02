@@ -3,3 +3,7 @@ git config --global user.email "jet.arciaga@gmail.com"
 git config --global push.default matching
 git config --global alias.co checkout
 git init
+
+# if you ever run into error when pushing your remote repository
+# run this command
+git config --global --unset https.proxy
